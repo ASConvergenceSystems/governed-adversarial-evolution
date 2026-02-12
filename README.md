@@ -27,27 +27,27 @@ Core Principles
 
 GAE systems are defined by the following non‑negotiable principles:
 
-1. Continuous Adversarial Pressure
+1. Continuous Adversarial Pressure —
 Adversarial activity is intentional, ongoing, and internal—not episodic or purely simulated.
 
 
-2. Human‑Root Authority
+2. Human‑Root Authority —
 All system modification requires explicit human authorization. No component may self‑modify autonomously.
 
 
-3. AI as Advisory Only
+3. AI as Advisory Only —
 AI may analyze, propose, and prioritize, but may not execute or approve system changes.
 
 
-4. Cryptographic Governance
+4. Cryptographic Governance —
 Proposals, approvals, and applied changes are signed, attributable, and auditable.
 
 
-5. Bounded Change with Rollback
+5. Bounded Change with Rollback —
 All adaptation is reversible and applied at controlled boundaries (e.g., reboot‑bound), with a known last‑known‑good state.
 
 
-6. Institutional Memory
+6. Institutional Memory —
 Failures, near‑misses, and adversarial findings become permanent system knowledge, not transient lessons.
 
 
@@ -57,35 +57,35 @@ Failures, near‑misses, and adversarial findings become permanent system knowle
 
 The GAE Loop (High Level)
 
-1. Change Introduced
+1. Change Introduced —
 New code, configuration, policy, or operational context enters the system.
 
 
-2. Adversarial Pressure Applied
+2. Adversarial Pressure Applied —
 Red Team behaviors, misuse patterns, and stress scenarios exercise the system.
 
 
-3. Evidence Collected
+3. Evidence Collected —
 Telemetry, failures, anomalies, and governance events are recorded in a canonical truth layer.
 
 
-4. Synthesis and Learning
+4. Synthesis and Learning —
 Blue and Purple functions correlate evidence into structured lessons and improvement candidates.
 
 
-5. Proposal Generation
+5. Proposal Generation —
 Candidate changes (security, correctness, resilience, usability) are proposed, not applied.
 
 
-6. Human Approval
+6. Human Approval —
 Authorized humans review, approve, or reject proposals.
 
 
-7. Controlled Application
+7. Controlled Application —
 Approved changes are applied at a bounded boundary with rollback capability.
 
 
-8. Regression via Replay
+8. Regression via Replay —
 Adversarial scenarios are replayed to validate improvement and prevent regression.
 
 
