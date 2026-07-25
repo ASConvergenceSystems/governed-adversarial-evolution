@@ -135,7 +135,7 @@ Implementations
 
 GAE is an architectural doctrine. Specific systems may implement it in different ways.
 
-LAIRS (Local Autonomous Intelligence & Response System) is an example implementation that applies GAE principles to security, governance, and system correctness in a local‑first environment.
+LAIRS (Local Autonomous Intelligence & Reasoning System) is an example implementation that applies GAE principles to security, governance, and system correctness in a local‑first environment.
 
 
 ---
